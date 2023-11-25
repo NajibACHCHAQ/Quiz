@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App - Accès au Quiz</title>
+</head>
+<body>
+    <h1>Formulaire d'accès au Quiz</h1>
+
+    <form id="access-form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="birthdate">Date de Naissance :</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+    
+        <label for="email">E-mail :</label>
+        <input type="email" id="email" name="email" required>
+    
+        <button type="button" id="access-button" onclick="startQuiz()">Accéder au Quiz</button>
+
+    </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
